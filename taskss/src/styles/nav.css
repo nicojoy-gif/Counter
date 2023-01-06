@@ -1,0 +1,41 @@
+.count-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.counter-home {
+    background-color: black;
+margin: 0;
+padding: 0;
+height: 55px;
+}
+
+.count-logo img {
+    width: 97px;
+    height: 47px;
+    border-radius: 70%;
+}
+
+.count-list {
+    list-style: none;
+    padding: 0 11px;
+    text-decoration: none;
+
+}
+
+.count-lists {
+    display: flex;
+}
+
+.countss {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 21px;
+}
+
+.countss:hover {
+    color: aqua;
+    transition: .9s linear;
+}

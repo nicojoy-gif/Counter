@@ -1,0 +1,50 @@
+.count-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  5px 15px;
+
+}
+
+.counter-home {
+    background-color: black;
+margin: 0 auto;
+height: 35px;
+min-width: 325px;
+}
+
+.count-logo img {
+    width: 77px;
+    height: 37px;
+    border-radius: 50%;
+}
+.count-list {
+    list-style: none;
+    padding: 0 9px;
+    text-decoration: none;
+
+}
+
+.count-lists {
+    display: flex;
+}
+
+.countss {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 21px;
+}
+
+.countss:hover {
+    color: aqua;
+    transition: .9s linear;
+}
+
+@media only screen and (max-width: 600px) {
+    .countss{
+        font-size: 14px;
+        font-weight: 400;
+    }
+    
+}
